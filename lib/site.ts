@@ -39,8 +39,8 @@ export const secondaryNav = [
 ];
 
 export const stats = [
-  { value: "$3.3T+", label: "Combined market opportunity across AI, cloud, analytics, geospatial intelligence, and automation" },
-  { value: "10", label: "Strategic future system layers already mapped inside the company vision" },
+  { value: "16+", label: " Deployed commercial Digital Systems Worldwide" },
+  { value: "10", label: "Strategic future system layers already implemented" },
   { value: "20+", label: "Capability domains spanning AI, software, cloud, geospatial systems, and institutional transformation" },
   { value: "3", label: "Growth engines: services, platforms, and future infrastructure products" },
 ];
@@ -54,11 +54,11 @@ export const servicePillars = [
   {
     title: "Research Software Development",
     text: "Digital products for field data, environmental intelligence, geospatial workflows, remote sensing, social research, and evidence based decision support.",
-    points: ["Research portals", "Data systems", "Dashboards", "Insight tools"],
+    points: ["Research portals", "Data systems", "CRM and Dashboards", "Insight tools"],
   },
   {
     title: "Cloud Platforms and Infrastructure",
-    text: "Production grade frontend, backend, and cloud architecture using current tools that are fast, scalable, and maintainable.",
+    text: "Production-grade frontend, backend, and cloud architecture using current tools that are fast, scalable, and maintainable.",
     points: ["Next.js", "FastAPI", "Docker", "Cloud deployment"],
   },
   {
@@ -71,7 +71,7 @@ export const servicePillars = [
 export const researchDomains = [
   {
     title: "Environmental Intelligence",
-    text: "Climate resilience, sustainability, adaptation, risk analytics, and environmental monitoring translated into decision ready interfaces.",
+    text: "Climate resilience, sustainability, adaptation, risk analytics, and environmental monitoring translated into decision-ready interfaces.",
   },
   {
     title: "Remote Sensing and Geospatial Systems",
@@ -100,7 +100,7 @@ export const products = [
     slug: "synapse",
     name: "SYNAPSE",
     tag: "Intelligence Core",
-    summary: "A modular intelligence layer for retrieval, reasoning support, orchestration, and knowledge centric workflows.",
+    summary: "A modular intelligence layer for retrieval, reasoning support, orchestration, and knowledge-centric workflows.",
     sections: [
       "Unifies documents, data, and action flows.",
       "Creates reusable intelligence capabilities that can move from client work to platform product.",
@@ -111,9 +111,9 @@ export const products = [
     slug: "omnia",
     name: "OMNIA",
     tag: "AI Operating Assistant",
-    summary: "A human centered operational assistant for decision support, synthesis, task acceleration, and execution visibility.",
+    summary: "A human-centered operational assistant for decision support, synthesis, task acceleration, and execution visibility.",
     sections: [
-      "Supports leaders, analysts, researchers, and teams with context aware assistance.",
+      "Supports leaders, analysts, researchers, and teams with context-aware assistance.",
       "Combines memory, retrieval, structured reasoning, and task support in one interface.",
       "Built as a service layer today and a scalable product tomorrow.",
     ],
