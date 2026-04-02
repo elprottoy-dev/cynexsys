@@ -181,7 +181,7 @@ export const projects = [
   },
   {
     slug: "deshojobazar-commerce-network",
-    title: "DeshojoBazar Commerce Network",
+    title: "E- Commerce Network",
     category: "Web & Platforms",
     status: "In Progress",
     summary: "E-commerce ecosystem connecting producers and consumers with vendor onboarding, inventory management, and payments.",
