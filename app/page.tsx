@@ -22,7 +22,7 @@ export default function HomePage() {
               <Reveal>
                 <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs uppercase tracking-[0.32em] text-cyan-200">
                   <Sparkles className="h-4 w-4" />
-                  Future-ready research, Software, and intelligence systems
+                  Future-ready Research, Software, and intelligence systems
                 </div>
               </Reveal>
               <Reveal delay={0.08}>
@@ -75,7 +75,7 @@ export default function HomePage() {
                   </div>
                   <div className="grid gap-4 md:grid-cols-2">
                     <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/10 p-4">
-                      <div className="text-xs uppercase tracking-[0.28em] text-cyan-100/85">Core thesis</div>
+                      <div className="text-xs uppercase tracking-[0.28em] text-cyan-100/85">Core Module</div>
                       <div className="mt-2 text-lg font-semibold">Software should increase intelligence, decision quality, and execution speed, not add complexity.</div>
                     </div>
                     <div className="rounded-2xl border border-[color:var(--line)] bg-[color:var(--panel)] p-4">
@@ -96,7 +96,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Who we are"
               title="A next generation company built at the intersection of research, software, and future systems."
-              text="Cynexsys IT is designed to become more than a development studio. It is a long range technology company that turns advanced ideas into deployable systems, blending design clarity, engineering discipline, research fluency, and product strategy."
+              text="Cynexsys IT is designed to become more than a development studio. It is a series of technology firms that turns advanced ideas into deployable systems, blending design clarity, engineering discipline, research fluency, and product strategy."
             />
           </Reveal>
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -105,13 +105,13 @@ export default function HomePage() {
                 <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Founder vision</div>
                 <h3 className="mt-4 text-3xl font-black">The vision behind Cynexsys IT starts with one belief.</h3>
                 <p className="mt-5 leading-8 text-[color:var(--muted)]">
-                Khaled Md Mehzabin Alam Prottoy created Cynexsys IT to build the intelligence layer that helps organizations think, operate, and evolve with more clarity. Instead of making isolated tools, the company is designed to build connected systems, intelligent workflows, and reusable infrastructure that compound over time.
+                Cynexsys IT was founded in order to build the intelligence layer that helps organizations think, operate, and evolve with more clarity. Instead of making isolated tools, the company is designed to build connected systems, intelligent workflows, and reusable infrastructure that compound over time.
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   <Pill>Research led</Pill>
                   <Pill>Engineering disciplined</Pill>
-                  <Pill>Investor ready</Pill>
-                  <Pill>Global ambition</Pill>
+                  <Pill>Investor HUB</Pill>
+                  <Pill>Global HUB</Pill>
                 </div>
               </GlassCard>
             </Reveal>
@@ -171,7 +171,7 @@ export default function HomePage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow="Investment readiness"
+              eyebrow="Investment HUB"
               title="A market story that speaks to both clients and investors."
               text="Cynexsys IT sits inside several of the largest technology opportunity zones now accelerating around the world."
             />
@@ -198,7 +198,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Products"
               title="A service to product flywheel already visible in the brand."
-              text="These product concepts help present a future ready identity while staying grounded in practical execution."
+              text="These product concepts help present a future-ready identity while staying grounded in practical execution."
             />
           </Reveal>
           <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -229,7 +229,7 @@ export default function HomePage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow="Projects"
+              eyebrow="Case Studies"
               title="Case study style project architecture that makes the company feel substantial from day one."
               text="Each project direction is built to turn into a real case study with challenge, solution, outcomes, stack, and role."
             />
@@ -260,7 +260,7 @@ export default function HomePage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow="Future of the company"
+              eyebrow="Future of the company."
               title="A future systems roadmap designed to attract serious attention."
               text="Cynexsys IT is not presented as a single product startup. It is positioned as an intelligence company with a progression path from services to platforms to infrastructure."
             />
