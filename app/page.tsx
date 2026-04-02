@@ -22,7 +22,7 @@ export default function HomePage() {
               <Reveal>
                 <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs uppercase tracking-[0.32em] text-cyan-200">
                   <Sparkles className="h-4 w-4" />
-                  Future ready research, software, and intelligence systems
+                  Future-ready research, Software, and intelligence systems
                 </div>
               </Reveal>
               <Reveal delay={0.08}>
@@ -32,7 +32,7 @@ export default function HomePage() {
               </Reveal>
               <Reveal delay={0.16}>
                 <p className="mt-7 max-w-3xl text-lg leading-8 text-[color:var(--muted)] md:text-xl">
-                  Cynexsys IT is a future facing research and technology company founded by ElProttoy AKA Khaled Md Prottoy. We build AI systems, research software, geospatial intelligence platforms, institutional dashboards, and long horizon digital products for organizations that need both credibility and ambition.
+                  Cynexsys IT is a future-facing research and technology company. We build AI systems, Digital software, Websites, Research software, geospatial intelligence platforms, institutional dashboards, and long-horizon digital products for organizations that need both credibility and ambition.
                 </p>
               </Reveal>
               <Reveal delay={0.24}>
@@ -105,7 +105,7 @@ export default function HomePage() {
                 <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Founder vision</div>
                 <h3 className="mt-4 text-3xl font-black">The vision behind Cynexsys IT starts with one belief.</h3>
                 <p className="mt-5 leading-8 text-[color:var(--muted)]">
-                  ElProttoy AKA Khaled Md Prottoy created Cynexsys IT to build the intelligence layer that helps organizations think, operate, and evolve with more clarity. Instead of making isolated tools, the company is designed to build connected systems, intelligent workflows, and reusable infrastructure that compound over time.
+                Khaled Md Mehzabin Alam Prottoy created Cynexsys IT to build the intelligence layer that helps organizations think, operate, and evolve with more clarity. Instead of making isolated tools, the company is designed to build connected systems, intelligent workflows, and reusable infrastructure that compound over time.
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   <Pill>Research led</Pill>
@@ -118,7 +118,7 @@ export default function HomePage() {
             <Reveal delay={0.08}>
               <GlassCard className="p-8">
                 <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">What we do</div>
-                <h3 className="mt-4 text-3xl font-black">Build systems that can serve today and evolve into products tomorrow.</h3>
+                <h3 className="mt-4 text-3xl font-black"> Tech Industry Is Changing Every Second, Every Minute, Every Hour, Every Day.Build systems that can serve today and evolve into products tomorrow.</h3>
                 <p className="mt-5 leading-8 text-[color:var(--muted)]">
                   We design AI systems, research platforms, cloud software, institutional dashboards, reporting engines, and digital transformation layers. The current service model funds a larger ambition: platform modules, reusable products, and future infrastructure systems such as SYNAPSE, OMNIA, NEXGRID, and AUTOFORGE.
                 </p>
@@ -304,10 +304,10 @@ export default function HomePage() {
                 <div className="text-sm uppercase tracking-[0.35em] text-cyan-300">What happens next</div>
                 <div className="mt-4 grid gap-4">
                   {[
-                    "Publish real case studies with screenshots and measurable outcomes.",
-                    "Add founder, investor, and insights pages for deeper trust.",
-                    "Launch AI architecture and future systems pages to strengthen positioning.",
-                    "Expand from premium services into reusable modules and product layers.",
+                    " Get newsletter for real case studies with measurable outcomes.",
+                    " Founder, investor, and insights for deeper trust.",
+                    " Take Part in Launching AI architecture and future systems to strengthen positioning.",
+                    " Reduce complexity. Accelerate what matters.",
                   ].map((item) => (
                     <div key={item} className="rounded-2xl border border-[color:var(--line)] bg-[color:var(--panel)] px-5 py-4 text-[color:var(--muted)]">
                       {item}
