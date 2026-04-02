@@ -7,12 +7,12 @@ export const metadata: Metadata = { title: "Founder", description: "The founder 
 
 export default function FounderPage() {
   return (
-    <PageShell eyebrow="Founder" title="ElProttoy AKA Khaled Md Prottoy" description="The founder vision, journey, and strategic belief behind Cynexsys IT.">
+    <PageShell eyebrow="Founder" title="Khaled MD. Mehzabin Alam Prottoy" description="The founder vision, journey, and strategic belief behind Cynexsys IT.">
       <div className="grid gap-6 lg:grid-cols-2">
         <GlassCard className="p-8">
           <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Origin</div>
           <p className="mt-4 leading-8 text-[color:var(--muted)]">
-            Cynexsys IT was created as a long range vehicle for combining research fluency, software engineering, AI systems, cloud infrastructure, and product strategy into one focused company.
+            Cynexsys IT brings together research fluency, software engineering, AI systems, cloud infrastructure, and product strategy into one focused company.
           </p>
         </GlassCard>
         <GlassCard className="p-8">
