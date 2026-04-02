@@ -19,7 +19,7 @@ export function Footer() {
           <p className="mt-5 max-w-md text-sm leading-7 text-[color:var(--muted)]">
             Cynexsys IT creates AI systems, research software, geospatial intelligence platforms, institutional dashboards, and long horizon product architecture for the next era of digital capability.
           </p>
-          <div className="mt-5 text-sm text-[color:var(--muted)]">Copyright Cynexsys IT</div>
+          <div className="mt-5 text-sm text-[color:var(--muted)]"> © Copyright Cynexsys IT 2026</div>
         </div>
 
         <div>
