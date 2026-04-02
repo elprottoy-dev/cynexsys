@@ -36,7 +36,7 @@ export default function AboutPage() {
         </Reveal>
         <Reveal>
           <GlassCard className="p-8 lg:col-span-2">
-            <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Core Divisions of the company</div>
+            <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Core Principles of the company</div>
             <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
               {[
                 "Intelligence is infrastructure.",
