@@ -229,8 +229,8 @@ export default function HomePage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow="Case Studies"
-              title="Case study style project architecture that makes the company feel substantial from day one."
+              eyebrow="Completed Projects"
+              title=" “Crafted through our work, delivering impact that speaks for itself.” "
               text="Each project direction is built to turn into a real case study with challenge, solution, outcomes, stack, and role."
             />
           </Reveal>
