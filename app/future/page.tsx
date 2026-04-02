@@ -14,7 +14,7 @@ export default function FuturePage() {
     <PageShell
       eyebrow="Future"
       title="Future of the company - from premium digital delivery to intelligence infrastructure."
-      description="This section turns the company story into an investor level roadmap with clear future modules."
+      description="Our forward-looking vision, highlighting strategic goals, upcoming product modules, and innovation pathways that will drive sustainable growth and long-term value creation."
     >
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
         {futureModules.map((item, index) => (
