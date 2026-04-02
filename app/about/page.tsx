@@ -53,32 +53,59 @@ export default function AboutPage() {
         </Reveal>
 
         <Reveal>
-          <GlassCard className="p-8 lg:col-span-2">
-            <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">
-              Core Principles of the company
-            </div>
-            <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {[
-                "Intelligence is infrastructure.",
-                "Research and engineering should work together.",
-                "Systems must become more useful over time.",
-                "Service work should create product leverage.",
-                "Trust and evidence matter in high stakes settings.",
-                "Design should reduce friction, not add noise.",
-                "Ambition is strongest when grounded in execution.",
-                "Long term value comes from reusable systems.",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-2xl border border-[color:var(--line)] bg-[color:var(--panel)] p-4 text-[color:var(--muted)]"
-                >
-                  {item}
-                </div>
-              ))}
-            </div>
-          </GlassCard>
-        </Reveal>
+  <GlassCard className="p-8 md:p-12 lg:p-14 lg:col-span-2">
+    <div className="mx-auto max-w-3xl text-center">
+      <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">
+        Core Principles
       </div>
+      <h2 className="mt-4 text-3xl font-black leading-tight md:text-4xl">
+        The principles that shape how Cynexsys IT thinks, builds, and grows.
+      </h2>
+      <p className="mt-5 leading-8 text-[color:var(--muted)]">
+        These principles guide how we approach intelligence systems, product execution,
+        long-term value creation, and trust in real-world environments.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+      {[
+        "Intelligence is infrastructure.",
+        "Research and engineering should work together.",
+        "Systems must become more useful over time.",
+        "Service work should create product leverage.",
+        "Trust and evidence matter in high stakes settings.",
+        "Design should reduce friction, not add noise.",
+        "Ambition is strongest when grounded in execution.",
+        "Long term value comes from reusable systems.",
+      ].map((item, index) => (
+        <div
+          key={item}
+          className="group rounded-3xl border border-[color:var(--line)] bg-[color:var(--panel)] p-6 transition duration-300 hover:-translate-y-[4px] hover:border-cyan-300/30 hover:shadow-[0_18px_50px_rgba(34,211,238,0.08)]"
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-300/10 text-cyan-300 ring-1 ring-cyan-300/20">
+              <span className="text-lg font-bold">{String(index + 1).padStart(2, "0")}</span>
+            </div>
+
+            <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[color:var(--line)] bg-white/[0.03] text-cyan-300">
+              ✦
+            </div>
+          </div>
+
+          <div className="mt-6">
+            <h3 className="text-lg font-bold leading-7 text-[color:var(--text)]">
+              {item}
+            </h3>
+            <p className="mt-3 text-sm leading-7 text-[color:var(--muted)]">
+              Principle {index + 1} reflects the execution philosophy behind how Cynexsys
+              approaches systems, design, trust, and long-term product value.
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </GlassCard>
+</Reveal>
 
       <Reveal>
         <GlassCard className="mt-6 p-10 text-center">
