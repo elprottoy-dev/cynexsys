@@ -6,7 +6,7 @@ import { servicePillars } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Premium service lines across AI systems, research software, cloud architecture, and institutional digital transformation.",
+  description: "Professional service lines across AI systems, research software, cloud architecture, and institutional digital transformation.",
 };
 
 export default function ServicesPage() {
