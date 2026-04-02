@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     <PageShell
       eyebrow="Projects"
       title="A premium showcase of real shipped systems, experiments, platforms, and execution across AI, web, hardware, and immersive products."
-      description="This page now reflects the actual project range behind the company. It keeps the Cynexsys visual identity while presenting work in a more portfolio-driven showcase format."
+      description="This projects reflects the actual project range behind the company. It keeps the Cynexsys visual identity while presenting work in a more portfolio-driven showcase format."
     >
       <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
         <Reveal>
