@@ -4,10 +4,10 @@ export const site = {
   tagline: "Engineering the Intelligence Layer of Civilization",
   email: "cynexsysites@gmail.com",
   url: "https://cynexsyscom.vercel.app",
-  founder: "ElProttoy AKA Khaled Md Prottoy",
+  founder: "Khaled Md Mehzabin Alam Prottoy",
   addressLines: [
     "Queensland 4006",
-    "Level 1, 1024 Ann Street, Fortitude Valley QLD 4006",
+    "Level 1, Suite#4,  1024 Ann Street, Fortitude Valley QLD 4006",
   ],
   description:
     "Cynexsys IT designs AI systems, research software, geospatial intelligence platforms, institutional dashboards, and future ready digital infrastructure for organizations, labs, NGOs, and growth stage ventures.",
