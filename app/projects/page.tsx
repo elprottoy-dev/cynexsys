@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     <PageShell
       eyebrow="Projects"
       title="A premium showcase of real shipped systems, experiments, platforms, and execution across AI, web, hardware, and immersive products."
-      description="This projects reflects the actual project range behind the company. It keeps the Cynexsys visual identity while presenting work in a more portfolio-driven showcase format."
+      description="This projects reflects the actual project range behind the company. It keeps the Our visual identity while presenting our work in a more portfolio-driven showcase format."
     >
       <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
         <Reveal>
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl border border-[color:var(--line)] bg-[color:var(--panel)] p-5">
                 <div className="text-3xl font-black text-cyan-300">16</div>
-                <div className="mt-2 text-sm leading-6 text-[color:var(--muted)]">Projects now included in the portfolio system</div>
+                <div className="mt-2 text-sm leading-6 text-[color:var(--muted)]"> “Completed projects- systems built, delivered, and actively used by clients.”</div>
               </div>
               <div className="rounded-2xl border border-[color:var(--line)] bg-[color:var(--panel)] p-5">
                 <div className="text-3xl font-black text-cyan-300">4</div>
