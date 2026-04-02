@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Founder", description: "The founder 
 
 export default function FounderPage() {
   return (
-    <PageShell eyebrow="Founder" title="Khaled MD. Mehzabin Alam Prottoy" description="The founder vision, journey, and strategic belief behind Cynexsys IT.">
+    <PageShell eyebrow="Founder" title="Khaled MD. Mehzabin Alam Prottoy" description="The founder vision, journey, and Mastermind behind Cynexsys IT.">
       <div className="grid gap-6 lg:grid-cols-2">
         <GlassCard className="p-8">
           <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Origin</div>
@@ -24,7 +24,7 @@ export default function FounderPage() {
         <GlassCard className="p-8 lg:col-span-2">
           <div className="text-sm uppercase tracking-[0.32em] text-cyan-300">Strength map</div>
           <div className="mt-5 flex flex-wrap gap-2">
-            {["AI systems", "Research software", "Next.js", "FastAPI", "Cloud infrastructure", "Geospatial workflows", "Institutional systems", "Product strategy"].map((item) => <Pill key={item}>{item}</Pill>)}
+            {["AI systems", "Research software", "Institutional software", "Business software", "VR systems", "Hosting Solution", "Cloud infrastructure", "Geospatial workflows", "Institutional systems", "Product strategy"].map((item) => <Pill key={item}>{item}</Pill>)}
           </div>
         </GlassCard>
       </div>
